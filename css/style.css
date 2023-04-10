@@ -1,0 +1,44 @@
+/* Created by: Shyla Oommen
+* Created on: Apr 2023
+* This CSS file defines the style for index.html
+* ICS2O-Programming-Unit3-04-PHP-FahrenheitCelsius -->
+*/
+
+body {
+  background-color: #f8bd9e;
+}
+
+h1, h3 {
+  background-color: #f6a3cf;
+  text-align: center;
+  border: 2px solid #c65ec2;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p, form{
+  background-color: #f6a3cf;
+  border: 2px solid #c65ec2;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
+
+#results {
+  background-color: #f6a3cf;
+  border: 2px solid #c65ec2;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
