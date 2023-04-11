@@ -6,7 +6,7 @@
   $angleC = $_POST['angle-c'];
 
 	// calculate side c
-	$sideCAns = sqrt($sideA ** 2 + $sideB ** 2 - 2 * $sideA * $sideB * cos($angleC));
+	$sideCAns = sqrt($sideA ** 2 + $sideB ** 2 - (2 * $sideA * $sideB * cos($angleC)));
   $sideCAnsRounded = round($sideCAns, 2);
 ?>
 <h3>Results:</h3>
