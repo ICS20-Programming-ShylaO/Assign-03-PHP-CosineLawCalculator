@@ -29,7 +29,7 @@
     <img src="./images/cosinelaw_angle.png" alt="Cosine Law for an Angle" width="35%" height="35%">
     </center>
 		<!-- To solve side c -->
-    <form action="./answers.php" method="post" target="results">
+    <form action="./answers_side.php" method="post" target="results">
       <label for="lblSideA">Side a (cm):</label>
       <input type="text" id="side-a" placeholder="Eg. 5" name="side-a"><br><br>
       <label for="lblSideB">Side b (cm):</label>
@@ -40,25 +40,25 @@
 		</form>
     <!-- iframe for the side*** results to show on the web page. -->
     <center>
-      <iframe id="results-side" name="results-side">	
+      <iframe id="results" name="results">	
         Side c is about. "$sideCAnsRounded" . cm.
 	    </iframe>
     </center>
     <!-- To solve angle C -->
     <form action="./answers_angle.php" method="post" target="results">
-      <label for="lblSideAAng">Side a (cm):</label>
-      <input type="text" id="side-a-ang" placeholder="Eg. 5" name="side-a-ang"><br><br>
-      <label for="lblSideBAng">Side b (cm):</label>
-      <input type="text" id="side-b-ang" placeholder="Eg. 5" name="side-b-ang"><br><br>
-      <label for="lblAngleC">Side c (cm):</label>
-      <input type="text" id="side-c" placeholder="Eg. 75" name="side-c"><br><br>
+      <label for="lblSideA_2">Side a (cm):</label>
+      <input type="text" id="side-a-2" placeholder="Eg. 5" name="side-a-2"><br><br>
+      <label for="lblSideB_2">Side b (cm):</label>
+      <input type="text" id="side-b-2" placeholder="Eg. 5" name="side-b-2"><br><br>
+      <label for="lblSideC_2">Side c (cm):</label>
+      <input type="text" id="side-c-2" placeholder="Eg. 75" name="side-c-2"><br><br>
       <input type="submit" value="Calculate">
 		</form>
     <!-- iframe for the angle*** results to show on the web page. -->
     <center>
-      <iframe id="results-angle" name="results-angle">	
-        Angle C is about. "$AngleCAnsRounded" .°.
-	    </iframe>
+     <!-- <iframe id="results" name="results">	
+        Angle C is . "$AngleCAnsRounded" .°.
+	    </iframe>-->
     </center>
   </body>
 </html>

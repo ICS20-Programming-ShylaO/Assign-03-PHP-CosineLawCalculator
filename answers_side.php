@@ -3,10 +3,11 @@
 	// get side a, b, and angle C from the text fields
 	$sideA = $_POST['side-a'];
   $sideB = $_POST['side-b'];
-  $angleC = $_POST['angle-c'];
+  $angleCDeg = $_POST['angle-c'];
+  $angleCRad = $angleCDeg * pi() / 180;
 
 	// calculate side c
-	$sideCAns = sqrt($sideA ** 2 + $sideB ** 2 - (2 * $sideA * $sideB * cos($angleC)));
+	$sideCAns = sqrt($sideA ** 2 + $sideB ** 2 - (2 * $sideA * $sideB * cos($angleCRad)));
   $sideCAnsRounded = round($sideCAns, 2);
 ?>
 <h3>Results:</h3>
