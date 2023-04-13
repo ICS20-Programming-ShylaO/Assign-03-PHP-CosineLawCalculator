@@ -45,7 +45,7 @@
 	    </iframe>
     </center>
     <!-- To solve angle C -->
-    <form action="./answers_angle.php" method="post" target="results">
+    <form action="./answers_angle.php" method="post" target="results-angle">
       <label for="lblSideA_2">Side a (cm):</label>
       <input type="text" id="side-a-2" placeholder="Eg. 5" name="side-a-2"><br><br>
       <label for="lblSideB_2">Side b (cm):</label>
@@ -56,9 +56,9 @@
 		</form>
     <!-- iframe for the angle*** results to show on the web page. -->
     <center>
-     <!-- <iframe id="results" name="results">	
+      <iframe id="results-angle" name="results-angle">	
         Angle C is . "$AngleCAnsRounded" .°.
-	    </iframe>-->
+	    </iframe>
     </center>
   </body>
 </html>
