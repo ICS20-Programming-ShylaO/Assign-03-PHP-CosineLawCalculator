@@ -4,6 +4,7 @@
 	$sideA = $_POST['side-a'];
   $sideB = $_POST['side-b'];
   $angleCDeg = $_POST['angle-c'];
+  // convert degrees to radians
   $angleCRad = $angleCDeg * pi() / 180;
 
 	// calculate side c

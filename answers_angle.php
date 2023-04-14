@@ -7,6 +7,7 @@
 
 	// calculate side c
 	$angleCRad_2 = acos( ($sideA_2 ** 2 + $sideB_2 ** 2 - $sideC_2 ** 2) / (2 * $sideA_2 * $sideB_2) );
+  // convert radians to degrees
   $angleCDeg_2 = $angleCRad_2 * 180 / pi();
   $angleC_2AnsRounded = round($angleCDeg_2, 2);
 ?>
